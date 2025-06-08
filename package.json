@@ -1,0 +1,14 @@
+{
+  "name": "budget-assistant",
+  "version": "1.0.0",
+  "description": "Budget Assistant application",
+  "scripts": {
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd backend && npm run start:dev",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

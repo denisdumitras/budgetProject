@@ -1,0 +1,40 @@
+.sidebar {
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #fff;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  width: 250px;
+  transition: width 0.3s ease;
+}
+
+.sidebar.collapsed {
+  width: 80px;
+}
+
+.logo {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  border-bottom: 1px solid #f0f0f0;
+  overflow: hidden;
+}
+
+.sidebar.collapsed .logo {
+  justify-content: center;
+  padding: 16px 0;
+}
+
+.collapse-button {
+  font-size: 16px;
+}
+
+.logo h2 {
+  margin: 0;
+  color: #1890ff;
+}

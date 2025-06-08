@@ -1,0 +1,26 @@
+.income-page {
+  min-height: 100vh;
+  padding-left: 250px; /* Default sidebar width */
+  transition: padding-left 0.3s ease; /* Smooth transition */
+}
+
+.income-page.sidebar-collapsed {
+  padding-left: 80px; /* Collapsed sidebar width */
+}
+
+.income-content {
+  padding: 24px;
+  background: #f0f2f5;
+  min-height: 100vh;
+}
+
+.income-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.income-header h2 {
+  margin-bottom: 0;
+}
